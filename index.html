@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <section class="chat_section">
+        <div class="brand">
+            <img height="25" width="25" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+            <h1> whatsup</h1>
+        </div>
+        <div class="message_area">
+            <div class="navbar" id="dropdown">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+            
+        </div>
+        <textarea id="textarea" placeholder="Message"></textarea>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
